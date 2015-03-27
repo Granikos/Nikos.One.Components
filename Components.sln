@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikos.One.Modules.CartEventStoreAccess", "Nikos.One.Modules.CartEventStoreAccess\Nikos.One.Modules.CartEventStoreAccess.csproj", "{1F71CA14-7B9B-40FB-91B9-0ECB8F3B10B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikos.One.Modules.Mails", "Nikos.One.Modules.Mails\Nikos.One.Modules.Mails.csproj", "{532FD81F-D111-4BDF-AEFE-C4EB600EBE7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikos.One.Modules.Payment", "Nikos.One.Modules.Payment\Nikos.One.Modules.Payment.csproj", "{65F568E5-7C37-4EAB-980A-3049D602E332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikos.One.Modules.Payment.PayPal", "Nikos.One.Modules.Payment.PayPal\Nikos.One.Modules.Payment.PayPal.csproj", "{8D2E6379-49BF-4F1D-B71C-E142AD31C465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikos.One.Templating.Razor", "Nikos.One.Templating.Razor\Nikos.One.Templating.Razor.csproj", "{49A7FE53-2498-4141-90D9-C31CC26CA792}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9751E3ED-9321-4379-9309-E6D2622C8E55}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F71CA14-7B9B-40FB-91B9-0ECB8F3B10B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F71CA14-7B9B-40FB-91B9-0ECB8F3B10B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F71CA14-7B9B-40FB-91B9-0ECB8F3B10B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F71CA14-7B9B-40FB-91B9-0ECB8F3B10B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532FD81F-D111-4BDF-AEFE-C4EB600EBE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532FD81F-D111-4BDF-AEFE-C4EB600EBE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532FD81F-D111-4BDF-AEFE-C4EB600EBE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532FD81F-D111-4BDF-AEFE-C4EB600EBE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F568E5-7C37-4EAB-980A-3049D602E332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F568E5-7C37-4EAB-980A-3049D602E332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F568E5-7C37-4EAB-980A-3049D602E332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F568E5-7C37-4EAB-980A-3049D602E332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2E6379-49BF-4F1D-B71C-E142AD31C465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2E6379-49BF-4F1D-B71C-E142AD31C465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2E6379-49BF-4F1D-B71C-E142AD31C465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2E6379-49BF-4F1D-B71C-E142AD31C465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A7FE53-2498-4141-90D9-C31CC26CA792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A7FE53-2498-4141-90D9-C31CC26CA792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A7FE53-2498-4141-90D9-C31CC26CA792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A7FE53-2498-4141-90D9-C31CC26CA792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

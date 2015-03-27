@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<workflow name="default">
+  <state name="open">
+    <on trigger="next" goto="shipping"/>
+  </state>
+  <state name="shipping">
+    <on trigger="next" goto="payment">
+      cart.Items.Any()
+    </on>
+    <on trigger="*" goto="open"/>
+  </state>
+  <state name="payment">
+    <on trigger="back" goto="shipping"/>
+    <on trigger="next" goto="closed"/>
+    <on trigger="*" goto="open"/>
+  </state>
+  <state name="closed" exit="true"/>
+</workflow>
