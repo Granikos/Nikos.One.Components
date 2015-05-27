@@ -40,6 +40,10 @@
       <HintPath>..\packages\Giri.Client.ServiceModel.1.0.9\lib\net451\Giri.Client.ServiceModel.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Giri.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a669ea5937f7fe6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Giri.Server.1.0.9\lib\net451\Giri.Server.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Giri.Server.Templating, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a669ea5937f7fe6b, processorArchitecture=MSIL">
       <HintPath>..\packages\Giri.Server.Templating.1.0.9\lib\net451\Giri.Server.Templating.dll</HintPath>
       <Private>True</Private>
@@ -48,28 +52,37 @@
       <HintPath>..\packages\Giri.ServiceContracts.1.0.9\lib\net451\Giri.ServiceContracts.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="HtmlAgilityPack">
+    <Reference Include="Giri.Toolbelt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a669ea5937f7fe6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Giri.Toolbelt.1.0.7\lib\net451\Giri.Toolbelt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Giri.Toolbelt.Compilers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a669ea5937f7fe6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Giri.Toolbelt.Compilers.1.0.7\lib\net451\Giri.Toolbelt.Compilers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Nikos.Toolbelt.1.0.5559.23588\lib\net451\Ionic.Zip.dll</HintPath>
+      <HintPath>..\packages\Giri.Toolbelt.1.0.7\lib\net451\Ionic.Zip.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis, Version=0.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Nikos.Toolbelt.Compilers.1.0.5559.23590\lib\net451\Microsoft.CodeAnalysis.dll</HintPath>
+      <HintPath>..\packages\Giri.Toolbelt.Compilers.1.0.7\lib\net451\Microsoft.CodeAnalysis.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis.CSharp, Version=0.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Nikos.Toolbelt.Compilers.1.0.5559.23590\lib\net451\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+      <HintPath>..\packages\Giri.Toolbelt.Compilers.1.0.7\lib\net451\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis.CSharp.Workspaces, Version=0.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Nikos.Toolbelt.Compilers.1.0.5559.23590\lib\net451\Microsoft.CodeAnalysis.CSharp.Workspaces.dll</HintPath>
+      <HintPath>..\packages\Giri.Toolbelt.Compilers.1.0.7\lib\net451\Microsoft.CodeAnalysis.CSharp.Workspaces.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis.Workspaces, Version=0.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Nikos.Toolbelt.Compilers.1.0.5559.23590\lib\net451\Microsoft.CodeAnalysis.Workspaces.dll</HintPath>
+      <HintPath>..\packages\Giri.Toolbelt.Compilers.1.0.7\lib\net451\Microsoft.CodeAnalysis.Workspaces.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
