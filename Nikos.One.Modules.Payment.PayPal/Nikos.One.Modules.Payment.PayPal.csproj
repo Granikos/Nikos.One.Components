@@ -121,6 +121,12 @@
   <ItemGroup>
     <Content Include="StateMachine\stateMachine.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nikos.One.Modules.Payment\Nikos.One.Modules.Payment.csproj">
+      <Project>{65F568E5-7C37-4EAB-980A-3049D602E332}</Project>
+      <Name>Nikos.One.Modules.Payment</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
