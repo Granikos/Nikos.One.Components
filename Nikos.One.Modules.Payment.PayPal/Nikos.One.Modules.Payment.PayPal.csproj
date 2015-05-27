@@ -38,6 +38,18 @@
     <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Giri.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a669ea5937f7fe6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Giri.Client.1.0.9\lib\net451\Giri.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Giri.Client.ServiceModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a669ea5937f7fe6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Giri.Client.ServiceModel.1.0.9\lib\net451\Giri.Client.ServiceModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Giri.ServiceContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a669ea5937f7fe6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Giri.ServiceContracts.1.0.9\lib\net451\Giri.ServiceContracts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Nikos.Toolbelt.1.0.5559.23588\lib\net451\Ionic.Zip.dll</HintPath>
@@ -58,8 +70,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Nikos.Toolbelt.Compilers.1.0.5559.23590\lib\net451\Microsoft.CodeAnalysis.Workspaces.dll</HintPath>
     </Reference>
-    <Reference Include="PayPalCoreSDK">
-      <HintPath>..\packages\PayPalCoreSDK.1.6.0\lib\net451\PayPalCoreSDK.dll</HintPath>
+    <Reference Include="PayPalCoreSDK, Version=1.6.2.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PayPalCoreSDK.1.6.2\lib\net451\PayPalCoreSDK.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="RestApiSDK">
       <HintPath>..\packages\RestApiSDK.0.11.0\lib\net45\RestApiSDK.dll</HintPath>

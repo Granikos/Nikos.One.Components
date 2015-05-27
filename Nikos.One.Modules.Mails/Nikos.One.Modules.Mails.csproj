@@ -32,6 +32,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Giri.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a669ea5937f7fe6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Giri.Client.1.0.9\lib\net451\Giri.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Giri.Client.ServiceModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a669ea5937f7fe6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Giri.Client.ServiceModel.1.0.9\lib\net451\Giri.Client.ServiceModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Giri.Server.Templating, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a669ea5937f7fe6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Giri.Server.Templating.1.0.9\lib\net451\Giri.Server.Templating.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Giri.ServiceContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a669ea5937f7fe6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Giri.ServiceContracts.1.0.9\lib\net451\Giri.ServiceContracts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="HtmlAgilityPack">
       <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
     </Reference>
