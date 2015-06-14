@@ -6,9 +6,9 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("Nikos.One.Modules.CartEventStoreAccess")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("TODO")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Granikos")]
 [assembly: AssemblyProduct("Nikos.One.Modules.CartEventStoreAccess")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
