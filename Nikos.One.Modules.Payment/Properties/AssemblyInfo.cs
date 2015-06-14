@@ -8,9 +8,9 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("Nikos.One.Modules.PaymentComponent")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("TODO")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Granikos")]
 [assembly: AssemblyProduct("Nikos.One.Modules.PaymentComponent")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
